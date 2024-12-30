@@ -38,16 +38,24 @@
 
 #5 Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-num01 = int(input("Digite um número: "))
+# num01 = int(input("Digite um número: "))
 
-resultado = num01 ** 2
+# resultado = num01 ** 2
 
-print(f"O resultado do npumero digitado elevado ao quadrado é: {resultado}")
+# print(f"O resultado do npumero digitado elevado ao quadrado é: {resultado}")
 
 
 ### Números de Ponto Flutuante (float)
 
 #6 Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+num01 = float(input("Digite o primeiro número: "))
+num02 = float(input("Digite o segundo número: "))
+
+resultado = num01 + num02
+
+print(f"A soma dos dois números é: {resultado}")
+
 #7 Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 #8 Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 #9 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
