@@ -7,29 +7,34 @@
     # num01 = int(input("Digite o primeiro número:"))
     # num02 = int(input("Digite o segundo número:"))
 
-    # soma = num01 + num02
+    # resultado = num01 + num02
 
-    # print(f"A soma dos numero digitados é {soma}")
+    # print(f"A soma dos numero digitados é {resultado}")
 
 #2 Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-    # num000 = int(input("Digite um numero: "))
+    # num01 = int(input("Digite um numero: "))
 
-    # resto = num000 % 5
+    # resultado = num01 % 5
 
-    # print(f"O resto da divisão é: {resto}")
+    # print(f"O resto da divisão é: {resultado}")
 
 #3 Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
-num0001 = int(input("Digite o primeiro número: "))
-num0002 = int(input("Digite o segundo número: "))
+    # num01 = int(input("Digite o primeiro número: "))
+    # num01 = int(input("Digite o segundo número: "))
 
-resultado = num0001 * num0002
-print (f"O resultado da multiplicação é {resultado}")
+    # resultado = num01 * num01
+    # print (f"O resultado da multiplicação é {resultado}")
 
 #4 Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
+num01 = int(input("Digite o primeiro número: "))
+num02 = int(input("Digite o segundo número: "))
 
+resultado = num01 / num02
+
+print(f"A divisão entre os números digitados: {resultado}")
 
 #5 Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 #6 Números de Ponto Flutuante (float)
