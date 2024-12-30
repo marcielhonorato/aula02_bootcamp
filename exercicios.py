@@ -2,53 +2,55 @@
 
 #Inteiros (int)
 
-#Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+#1 Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-# num01 = int(input("Digite o primeiro número:"))
-# num02 = int(input("Digite o segundo número:"))
+    # num01 = int(input("Digite o primeiro número:"))
+    # num02 = int(input("Digite o segundo número:"))
 
-# soma = num01 + num02
+    # soma = num01 + num02
 
-# print(f"A soma dos numero digitados é {soma}")
+    # print(f"A soma dos numero digitados é {soma}")
 
-#Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+#2 Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-# num000 = int(input("Digite um numero: "))
+    # num000 = int(input("Digite um numero: "))
 
-# resto = num000 % 5
+    # resto = num000 % 5
 
-# print(f"O resto da divisão é: {resto}")
+    # print(f"O resto da divisão é: {resto}")
 
-#Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+#3 Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
 num0001 = int(input("Digite o primeiro número: "))
 num0002 = int(input("Digite o segundo número: "))
 
-resultado = num0001 / num0002
-
+resultado = num0001 * num0002
 print (f"O resultado da multiplicação é {resultado}")
 
-#Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-#Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-#Números de Ponto Flutuante (float)
-#Escreva um programa que receba dois números flutuantes e realize sua adição.
-#Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-#Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-#Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-#Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+#4 Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+
+
+#5 Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+#6 Números de Ponto Flutuante (float)
+#7 Escreva um programa que receba dois números flutuantes e realize sua adição.
+#8 Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+#9 Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+#10 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+#11 Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 #Strings (str)
 
-#Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
-#Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-#Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-#Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-#Escreva um programa que concatene duas strings fornecidas pelo usuário.
+#12 Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+#13 Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+#14 Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+#15 Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+#16 Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
 #Booleanos (bool)
 
-#Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-#Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-#Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
-#Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-#Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+#17 Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+#18 Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+#19 Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+#20 Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+#21 Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
