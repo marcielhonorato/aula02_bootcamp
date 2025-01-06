@@ -1,3 +1,5 @@
+import math
+
 #Exercícios
 
 ### Inteiros (int)
@@ -76,14 +78,19 @@
 
 #9 Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
-tem_celsius = float(input("Digite a temperatura atual em celsius: "))
+    # tem_celsius = float(input("Digite a temperatura atual em celsius: "))
 
-resultado = (tem_celsius * 1.8) + 32
+    # resultado = (tem_celsius * 1.8) + 32
 
-print(f"A temperatura em Fahrenheit é de {resultado}°")
+    # print(f"A temperatura em Fahrenheit é de {resultado}°")
 
 
 #10 Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+raio_do_circulo = float(input("Digite o raio: "))
+area_do_circulo = math.pi * raio_do_circulo ** 2
+
+print(f"A área do circulo é {area_do_circulo:.2f}")
 
 ### Strings (str)
 
