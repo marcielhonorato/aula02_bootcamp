@@ -127,16 +127,24 @@ import math
 
 #15 Escreva um programa que concatene duas strings fornecidas pelo usuário.
 
-palavra00 = input("Digite a primeira palavra: ")
-palavra01 = input("Digite a segunda palavra: ")
+    # palavra00 = input("Digite a primeira palavra: ")
+    # palavra01 = input("Digite a segunda palavra: ")
 
-resultado = palavra00 + ' ' + palavra01
+    # resultado = palavra00 + ' ' + palavra01
 
-print(f"a concatenação das palavras digitadas é {resultado}")
+    # print(f"a concatenação das palavras digitadas é {resultado}")
 
 ### Booleanos (bool)
 
 #16 Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+valor00 = True
+valor01 = False
+
+resultado = valor00 and valor01 
+
+print(f"O Resuldao do vlaor lógico AND é: {resultado}")
+
 #17 Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 #18 Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 #19 Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
