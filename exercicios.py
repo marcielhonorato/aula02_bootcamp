@@ -143,7 +143,7 @@ valor01 = False
 
 resultado = valor00 and valor01 
 
-print(f"O Resuldao do vlaor lógico AND é: {resultado}")
+print(f"O Resultado do valor lógico AND é: {resultado}")
 
 #17 Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 #18 Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
