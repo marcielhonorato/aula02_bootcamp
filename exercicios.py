@@ -138,14 +138,18 @@ import math
 
 #16 Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
-valor00 = True
-valor01 = False
+    # valor00 = True
+    # valor01 = False
 
-resultado = valor00 and valor01 
+    # resultado = valor00 and valor01 
 
-print(f"O Resultado do valor lógico AND é: {resultado}")
+    # print(f"O Resultado do valor lógico AND é: {resultado}")
 
 #17 Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+resultado = True or True
+print(f"O resultado do valor lógico OR é: {resultado}")
+
 #18 Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 #19 Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 #20 Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
