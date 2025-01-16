@@ -152,10 +152,18 @@ import math
 
 #18 Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 
-valor = False
-resultado = not valor
+    # valor = False
+    # resultado = not valor
 
-print(f"Resultado do valor lógico invertido NOT: {resultado}")
+    # print(f"Resultado do valor lógico invertido NOT: {resultado}")
 
 #19 Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+num000 = int(input("Digite o primeiro número: "))
+num001 = int(input("Digite o segundo número: "))
+
+resultado = (num000 == num001)
+
+print(f"Resultado da igualdade: {resultado}")
+
 #20 Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
