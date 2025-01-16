@@ -159,11 +159,18 @@ import math
 
 #19 Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 
+    # num000 = int(input("Digite o primeiro número: "))
+    # num001 = int(input("Digite o segundo número: "))
+
+    # resultado = (num000 == num001)
+
+    # print(f"Resultado da igualdade: {resultado}")
+
+#20 Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
 num000 = int(input("Digite o primeiro número: "))
 num001 = int(input("Digite o segundo número: "))
 
-resultado = (num000 == num001)
+resultado = (num000 != num001)
 
 print(f"Resultado da igualdade: {resultado}")
-
-#20 Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
