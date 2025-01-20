@@ -181,23 +181,35 @@ import math
 # Escreva um programa que converta a temperatura de Celsius para Fahrenheit. O programa deve solicitar ao usuário a temperatura em Celsius e, utilizando try-except, 
 # garantir que a entrada seja numérica, tratando qualquer ValueError. Imprima o resultado em Fahrenheit ou uma mensagem de erro se a entrada não for válida.
 
-try:
-    tem_celsius = float(input("Digite a temperatura atual em celsius: "))
+    # try:
+    #     tem_celsius = float(input("Digite a temperatura atual em celsius: "))
 
-    resultado = (tem_celsius * 1.8) + 32
+    #     resultado = (tem_celsius * 1.8) + 32
 
-    print(f"A temperatura em Fahrenheit é de {resultado}°")
-except:
-   print("Parece que você não digitou o valor numérico para temperatura, tente novamente!") 
+    #     print(f"A temperatura em Fahrenheit é de {resultado}°")
+    # except:
+    #    print("Parece que você não digitou o valor numérico para temperatura, tente novamente!") 
 
 # Exercício 22: Verificador de Palíndromo
 # Crie um programa que verifica se uma palavra ou frase é um palíndromo (lê-se igualmente de trás para frente, desconsiderando espaços e pontuações). 
 # Utilize try-except para garantir que a entrada seja uma string. Dica: Utilize a função isinstance() para verificar o tipo da entrada.
 
+entrada = input("Digite uma palavra ou frase: ")
+if isinstance(entrada, str):
+    formatado = entrada.replace(" ", "").lower()
+    if formatado == formatado[::-1]:
+        print("É um palíndromo.")
+    else:
+        print("Não é um palíndromo.")
+else:
+    print("Entrada inválida. Por favor, digite uma palavra ou frase.")
 
 # Exercício 23: Calculadora Simples
 # Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. Use try-except para lidar com divisões por zero e entradas não numéricas.
 # Utilize if-elif-else para realizar a operação matemática baseada no operador fornecido. Imprima o resultado ou uma mensagem de erro apropriada.
+
+
+
 
 # Exercício 24: Classificador de Números
 # Escreva um programa que solicite ao usuário para digitar um número. Utilize try-except para assegurar que a entrada seja numérica e utilize if-elif-else para classificar o número como 
