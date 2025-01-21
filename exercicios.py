@@ -208,27 +208,44 @@ import math
 # Desenvolva uma calculadora simples que aceite duas entradas numéricas e um operador (+, -, *, /) do usuário. Use try-except para lidar com divisões por zero e entradas não numéricas.
 # Utilize if-elif-else para realizar a operação matemática baseada no operador fornecido. Imprima o resultado ou uma mensagem de erro apropriada.
 
-try:
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
-    operador = input("Digite o operador (+, -, *, /): ")
-    if operador == '+':
-        resultado = num1 + num2
-    elif operador == '-':
-        resultado = num1 - num2
-    elif operador == '*':
-        resultado = num1 * num2
-    elif operador == '/' and num2 != 0:
-        resultado = num1 / num2
-    else:
-        print("Operador inválido ou divisão por zero.")
-
-except ValueError:
-    print("ERRO: Entrada Inválida. Certifique-se de inserir números.")
+    # try:
+    #     num1 = float(input("Digite o primeiro número: "))
+    #     num2 = float(input("Digite o segundo número: "))
+    #     operador = input("Digite o operador (+, -, *, /): ")
+    #     if operador == '+':
+    #         resultado = num1 + num2
+    #     elif operador == '-':
+    #         resultado = num1 - num2
+    #     elif operador == '*':
+    #         resultado = num1 * num2
+    #     elif operador == '/' and num2 != 0:
+    #         resultado = num1 / num2
+    #     else:
+    #         print("Operador inválido ou divisão por zero.")
+    # except ValueError:
+    #     print("ERRO: Entrada Inválida. Certifique-se de inserir números.")
 
 # Exercício 24: Classificador de Números
 # Escreva um programa que solicite ao usuário para digitar um número. Utilize try-except para assegurar que a entrada seja numérica e utilize if-elif-else para classificar o número como 
 # "positivo", "negativo" ou "zero". Adicionalmente, identifique se o número é "par" ou "ímpar".
+try:
+    num000 = int(input("Degite um número: "))
+   
+    if num000 > 0:
+        print("O número digitado é positivo")
+    elif num000 < 0:
+        print("O número digitado é negativo")
+    else:
+        print(" número digitado é o zero")
+
+    if num000 % 2 == 0:
+        print("O número digitado é par")
+    else:
+        print("O número digitado é impar")
+
+except ValueError:
+    print("Erro: Não foi digitado um valor número")
+
 
 # Exercício 25: Conversão de Tipo com Validação
 # Crie um script que solicite ao usuário uma lista de números separados por vírgula. O programa deve converter a string de entrada em uma lista de números inteiros.
