@@ -228,26 +228,38 @@ import math
 # Exercício 24: Classificador de Números
 # Escreva um programa que solicite ao usuário para digitar um número. Utilize try-except para assegurar que a entrada seja numérica e utilize if-elif-else para classificar o número como 
 # "positivo", "negativo" ou "zero". Adicionalmente, identifique se o número é "par" ou "ímpar".
-try:
-    num000 = int(input("Degite um número: "))
-   
-    if num000 > 0:
-        print("O número digitado é positivo")
-    elif num000 < 0:
-        print("O número digitado é negativo")
-    else:
-        print(" número digitado é o zero")
+    # try:
+    #     num000 = int(input("Degite um número: "))
+    
+    #     if num000 > 0:
+    #         print("O número digitado é positivo")
+    #     elif num000 < 0:
+    #         print("O número digitado é negativo")
+    #     else:
+    #         print(" número digitado é o zero")
 
-    if num000 % 2 == 0:
-        print("O número digitado é par")
-    else:
-        print("O número digitado é impar")
+    #     if num000 % 2 == 0:
+    #         print("O número digitado é par")
+    #     else:
+    #         print("O número digitado é impar")
 
-except ValueError:
-    print("Erro: Não foi digitado um valor número")
-
+    # except ValueError:
+    #     print("Erro: Não foi digitado um valor número")
 
 # Exercício 25: Conversão de Tipo com Validação
 # Crie um script que solicite ao usuário uma lista de números separados por vírgula. O programa deve converter a string de entrada em uma lista de números inteiros.
 # Utilize try-except para tratar a conversão de cada número e validar que cada elemento da lista convertida é um inteiro. Se a conversão falhar ou um elemento não for um inteiro, 
 # imprima uma mensagem de erro. Se a conversão for bem-sucedida para todos os elementos, imprima a lista de inteiros.
+
+num000 = input("Digite 5 números separados por vírgula: ")
+
+str_lista = num000.split(",")
+
+int_lista = []
+
+try:
+    for i in str_lista:
+        int_lista.append(int(i.strip()))
+        print("Lista de inteiros:", int_lista)
+except ValueError:
+    print("Erro: certifique-se de que todos os elementos são números inteiros válidos.")
